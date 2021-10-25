@@ -6,7 +6,7 @@ kick            = sa.WaveObject.from_wave_file("samples\\KickBeelow.wav")
 snare           = sa.WaveObject.from_wave_file("samples\\SM_SW_Clap_snare_04.wav")
 hat             = sa.WaveObject.from_wave_file("samples\\SM_SW_Hat_04.wav")
 
-sequence        = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]     #list with positions for the sequence
+sequence        = [1,2,2,2,2,2]     #list with positions for the sequence
 stamp           = []                                    #list with sample index
 timeStamps      = []                                    #list for each calculated timestamp
 samples         = ['kick','snare','hat']                #list for actual samples with path
@@ -79,10 +79,3 @@ while Loop >= 1:
             else:
                 time.sleep(0.001)
             
-                   
-             
-            
-             
-         
-
-    
